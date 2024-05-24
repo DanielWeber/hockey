@@ -21813,12 +21813,13 @@ s.ax$=m
 n=m}s.NN(new A.Gq(p,B.En,o,n,null))
 s.Cf()},
 Dt:function Dt(a){this.a=a},
-cs:function cs(a,b,c,d,e){var _=this
+cs:function cs(a,b,c,d,e,f){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
-_.e=e},
+_.e=e
+_.f=f},
 tE:function tE(a){this.a=a},
 Jc:function Jc(a){var _=this
 _.d="all"
@@ -67164,7 +67165,7 @@ A.cs.prototype={}
 A.tE.prototype={
 ah(){return new A.Jc(B.k)}}
 A.Jc.prototype={
-K(b8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e="MTV Kronberg 2",d="HC Bad Homburg 3",c="Feld 1",b="Pokal",a="2024-05-25 10:35:00",a0=null,a1="HC Bad Homburg 2",a2="Wiesbadener THC 2",a3="Feld 2",a4="2024-05-25 11:45:00",a5="2024-05-25 12:55:00",a6="MTV Kronberg 1",a7="SSG Bensheim 1",a8="Meisterschaft",a9="2024-05-25 10:00:00",b0="HC Bad Homburg 1",b1="Wiesbadener THC 1",b2="2024-05-25 11:10:00",b3="2024-05-25 12:20:00",b4={},b5=b4.a=A.a([new A.cs(e,d,c,b,A.fm(a)),new A.cs(a1,a2,a3,b,A.fm(a)),new A.cs(a2,e,c,b,A.fm(a4)),new A.cs(a1,d,a3,b,A.fm(a4)),new A.cs(d,a2,c,b,A.fm(a5)),new A.cs(e,a1,a3,b,A.fm(a5)),new A.cs(a6,a7,c,a8,A.fm(a9)),new A.cs(b0,b1,a3,a8,A.fm(a9)),new A.cs(b1,a6,c,a8,A.fm(b2)),new A.cs(b0,a7,a3,a8,A.fm(b2)),new A.cs(a7,b1,c,a8,A.fm(b3)),new A.cs(a6,b0,a3,a8,A.fm(b3))],t.wj),b6=A.adb("HH:mm"),b7=A.adb("HH:mm:ss")
+K(b8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e="MTV Kronberg 2",d="HC Bad Homburg 3",c="Feld 1",b="Pokal",a="2024-05-25 10:35:00",a0=null,a1="HC Bad Homburg 2",a2="Wiesbadener THC 2",a3="Feld 2",a4="2024-05-25 11:45:00",a5="2024-05-25 12:55:00",a6="MTV Kronberg 1",a7="SSG Bensheim 1",a8="Meisterschaft",a9="2024-05-25 10:00:00",b0="HC Bad Homburg 1",b1="Wiesbadener THC 1",b2="2024-05-25 11:10:00",b3="2024-05-25 12:20:00",b4={},b5=b4.a=A.a([new A.cs(e,d,c,b,A.fm(a),1),new A.cs(a1,a2,a3,b,A.fm(a),2),new A.cs(a2,e,c,b,A.fm(a4),3),new A.cs(a1,d,a3,b,A.fm(a4),4),new A.cs(d,a2,c,b,A.fm(a5),5),new A.cs(e,a1,a3,b,A.fm(a5),6),new A.cs(a6,a7,c,a8,A.fm(a9),1),new A.cs(b0,b1,a3,a8,A.fm(a9),2),new A.cs(b1,a6,c,a8,A.fm(b2),3),new A.cs(b0,a7,a3,a8,A.fm(b2),4),new A.cs(a7,b1,c,a8,A.fm(b3),5),new A.cs(a6,b0,a3,a8,A.fm(b3),6)],t.wj),b6=A.adb("HH:mm"),b7=A.adb("HH:mm:ss")
 B.b.dX(b5,new A.a4p())
 s=f.d
 if(s!=="all"){s=s==="Pokal"||s==="Meisterschaft"
@@ -67263,7 +67264,7 @@ q=$.zR().a
 p=m.a
 if((q>p||q===p)&&q<m.C(0,B.dA).a)m=o.e
 else m=$.zR().a>m.C(0,B.dA).a?o.f:o.r
-return new A.nS(A.aay(A.a([l,B.zj,A.a05(s+" : "+r,m)],t.F),B.fy,B.pF),A.a05(n.c+" - "+n.d,null),null)},
+return new A.nS(A.aay(A.a([l,B.zj,A.a05(s+" : "+r,m)],t.F),B.fy,B.pF),A.a05(n.c+" - "+n.d+" Spiel "+n.f,null),null)},
 $S:431}
 A.a4v.prototype={
 $0(){return this.a.ai(new A.a4j())},
